@@ -1,0 +1,12 @@
+.Navigation {
+  max-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 2px;
+  background-color: #09d3ac;
+}
+
+.svg-image {
+  width: 40px;
+  max-height: 7.5vh;
+}
