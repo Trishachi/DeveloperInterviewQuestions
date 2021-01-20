@@ -8,13 +8,17 @@ class App extends React.Component {
     this.state = {};
   }
 
+  onButtonClick = (evt) => {
+    console.log(evt.target.id + " Button Clicked");
+  };
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1>Developer Interview Questions</h1>
         </header>
-        <Navigation />
+        <Navigation ButtonClicked={this.onButtonClick} />
         <main>
           <p>Main content goes here</p>
         </main>
